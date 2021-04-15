@@ -47,7 +47,7 @@
 
 /* setting the header properties */
 
-header {
+/* header {
     height: 
 }
 
@@ -139,11 +139,11 @@ footer {
     float: inherit;
     list-style: none;
     display: block;
-}
+} */
 
 /* setting the background colour of the list items in the dropdown menu */
 
-#about {
+/* #about {
     background-color: #b0b98c;
 }
 
@@ -165,15 +165,45 @@ footer {
 
 #technologies {
     background-color:#e2e6e1;
-}
+} */
 
 /* setting text-decoration on the links in the dropdown menu */
 
-a {
+/* a {
     text-decoration: none;
     color: #5a6358;
 }
 
 a:hover {
     text-decoration: underline;
+  } */
+
+  body {
+    background-color: peru;
+  }
+  
+  /* @media screen and (max-width:600px) {
+    body {
+      background-color: seagreen;
+    } */
+  
+  @media screen and (max-width:900px) {
+    body {
+      background-color: aquamarine;
+    }  
+  
+  h1 {
+    font-size: 20vw;
+  }
+  
+  h3 {
+    font-size: 15vw;
+  }
+  
+  p {
+    font-size: 10vw;
+  }
+  
+  li {
+    font-size: 10vw;
   }
