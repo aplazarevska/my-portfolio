@@ -89,8 +89,17 @@ img {
     position: relative; 
     left: 50%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     transform: translateX(-50%);
+}
+
+.image img {
+    transition: 1s;
+    box-sizing: border-box;
+}
+  
+.image:hover img {
+    transform: rotate(-20deg) translateX(-50%);
 }
 
 /* settings for screens 701px to 900px wide */
@@ -154,6 +163,7 @@ img {
     font-size: 5.8vw;
     font-family: 'Zen Dots', cursive;
     width: 100%;
+    padding: 4px;
 }
   
 .drop {
