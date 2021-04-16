@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7d4d05;
+    font-family: 'Zen Dots', cursive;
+    color: #5e705b;
+    text-shadow: 2px 2px black;
+}
+
+span {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75em;
+}
+
+header {
+    text-align: center;
+    margin: 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+/* setting text-decoration on the links in the dropdown menu */
+
+a:hover {
+    text-decoration: underline;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    text-shadow: none;
+}
+
+/* setting the background colour of the links in the dropdown menu */
+
+#about {
+    background-color: #e6f2cb;
+}
+
+#projects {
+    background-color: #c7db9a;
+}
+
+#blog {
+    background-color: #8ea35f;
+}
+
+#resume {
+    background-color: #6b8237;
+}
+
+#skills {
+    background-color: #74942b;
+}
+
+#technologies {
+    background-color: #8dc904;
+}
+
+/* font sizes */
+
+h1 {
+    font-size: 13vw;
+}
+
+h3 {
+    font-size: 7vw;
+}
+
+p {
+    font-size: 5vw;
+}
+
+/* image  */
+
+img {
+    position: relative; 
+    left: 50%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    transform: translateX(-50%);
+}
+
+.image img {
+    transition: 1s;
+    box-sizing: border-box;
+}
+  
+.image:hover img {
+    transform: rotate(-20deg) translateX(-50%);
+}
+
+/* settings for screens 701px to 900px wide */
+
+@media screen and (max-width:900px) {
+    body {
+        background-color: #a37631;
+    } 
+    header {
+        margin-top: 10%;
+    }
+    li {
+        font-size: 1.5em
+      }
+    h3 {
+        font-size: 5em;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+     }
+}    
+
+/* settings for screens up to 700px wide */
+
+@media screen and (max-width:700px) {
+    body {
+        background-color: #d19f54;
+        margin-top: 30px;
+    } 
+    li {
+        font-size: 1.5em;
+    }
+    section, aside, footer {
+        width: 100%;
+    }
+    h3 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    body {
+        text-shadow: none;
+    }
+}
+
+/* dropdown menu */
+
+.button {
+    background-color: #5e705b;
+    color: white;
+    font-size: 5.8vw;
+    font-family: 'Zen Dots', cursive;
+    width: 100%;
+    padding: 4px;
+}
+  
+.drop {
+    position: relative;
+    display: block;
+    align-items: center;
+}
+
+.content {
+    display: none;
+    position: relative;
+}
+
+.content a {
+    padding: 12px;
+    display: block;
+}
+
+.drop:hover .content {
+    display: block;
+}
