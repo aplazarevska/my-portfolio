@@ -178,32 +178,42 @@ a:hover {
     text-decoration: underline;
   } */
 
+body {
+  background-color: peru;
+}
+
+/* @media screen and (max-width:600px) {
   body {
-    background-color: peru;
-  }
-  
-  /* @media screen and (max-width:600px) {
+    background-color: seagreen;
+  } */
+
+@media screen and (max-width:1100px) {
+  body {
+    background-color: #37fae6;
+  } 
+
+h1 {
+  font-size: 18vw;
+}
+
+h3 {
+  font-size: 10vw;
+}
+
+p {
+  font-size: 7vw;
+}
+
+li {
+  font-size: 7vw;
+}
+
+@media screen and (max-width:900px) {
     body {
-      background-color: seagreen;
-    } */
-  
-  @media screen and (max-width:900px) {
+      background-color: #34eb43;
+    } 
+
+@media screen and (max-width:700px) {
     body {
-      background-color: aquamarine;
-    }  
-  
-  h1 {
-    font-size: 20vw;
-  }
-  
-  h3 {
-    font-size: 15vw;
-  }
-  
-  p {
-    font-size: 10vw;
-  }
-  
-  li {
-    font-size: 10vw;
-  }
+      background-color: #fafa23;
+    } 
