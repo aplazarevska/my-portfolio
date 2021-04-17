@@ -1,4 +1,6 @@
 
+/* general settings for main sections */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,6 @@ body {
     background-color: #7d4d05;
     font-family: 'Zen Dots', cursive;
     color: #5e705b;
-    text-shadow: 2px 2px black;
 }
 
 span {
@@ -20,6 +21,7 @@ span {
 header {
     text-align: center;
     margin: 5px;
+    text-shadow: 2px 2px black;
 }
 
 footer {
@@ -28,6 +30,31 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+/* blog posts div */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20%;
+}
+
+.flex-container > div {
+    background-color: #edeae1;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.keep-reading {
+    float: right;
+    background-color: #abaaa7;
+}
+
+.keep-reading:hover {
+    background-color: #a8924d;
 }
 
 /* setting text-decoration on the links in the dropdown menu */
@@ -72,34 +99,23 @@ a {
 /* font sizes */
 
 h1 {
-    font-size: 13vw;
-}
-
-h3 {
     font-size: 7vw;
 }
 
-p {
+h3 {
     font-size: 5vw;
 }
 
-/* image  */
+h2 {
+    font-size: 4vw;
+}
+
+/* image takes you to homepage */
 
 img {
-    position: relative; 
-    left: 50%;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    transform: translateX(-50%);
-}
-
-.image img {
-    transition: 1s;
-    box-sizing: border-box;
-}
-  
-.image:hover img {
-    transform: rotate(-20deg) translateX(-50%);
+    float: left;
+    margin: 10px;
+    max-width: 15vw;
 }
 
 /* settings for screens 701px to 900px wide */
@@ -114,9 +130,6 @@ img {
     li {
         font-size: 1.5em
       }
-    h3 {
-        font-size: 5em;
-    }
     footer {
         position: fixed;
         left: 0;
@@ -124,6 +137,12 @@ img {
         width: 100%;
         text-align: center;
      }
+     .flex-container p {
+        font-size: 2.5vw;;
+    }
+    .flex-container h5 {
+        font-size: 3.5vw;
+    }
 }    
 
 /* settings for screens up to 700px wide */
@@ -134,14 +153,7 @@ img {
         margin-top: 30px;
     } 
     li {
-        font-size: 1.5em;
-    }
-    section, aside, footer {
-        width: 100%;
-    }
-    h3 {
-        font-size: 6vw;
-        text-align: center;
+        font-size: 2em;
     }
     footer {
         position: fixed;
@@ -150,8 +162,14 @@ img {
         width: 100%;
         text-align: center;
     }
-    body {
+    header {
         text-shadow: none;
+    }
+    .flex-container p {
+        font-size: 2.5vw;;
+    }
+    .flex-container h5 {
+        font-size: 3.5vw;
     }
 }
 
