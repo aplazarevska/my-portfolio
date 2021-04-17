@@ -1,0 +1,199 @@
+
+/* general settings for main sections */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5deb3;
+    font-family: 'Zen Dots', cursive;
+    color: #5e705b;
+}
+
+span {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75em;
+}
+
+header {
+    text-align: center;
+    margin: 5px;
+    text-shadow: 1px 1px #000000;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* setting text-decoration on the links in the dropdown menu */
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    text-shadow: none;
+}
+
+/* setting the background colour of the links in the dropdown menu */
+
+#about {
+    background-color: #ecf9f2;
+}
+
+#projects {
+    background-color: #d9f2e6;
+}
+
+#blog {
+    background-color: #b3e6cc;
+}
+
+#resume {
+    background-color: #9fdfbf;
+}
+
+#skills {
+    background-color: #8cd9b3;
+}
+
+#technologies {
+    background-color: #79d2a6;
+}
+
+/* font sizes */
+
+h1 {
+    font-size: 7vw;
+}
+
+h3 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+/* image takes you to homepage */
+
+img {
+    float: left;
+    margin: 10px;
+    max-width: 15vw;
+}
+
+/* contact icons */
+
+.contact-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 5vh auto;
+}
+
+.contact-links img {
+    margin: 30px;
+}
+
+/* settings for screens 701px to 900px wide */
+
+@media screen and (max-width:900px) {
+    body {
+        background-color: #c2a98c;
+    } 
+    header {
+        margin-top: 10%;
+    }
+    li {
+        font-size: 1.5em
+      }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+     }
+    .contact-links {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 5vh auto;
+    }
+    .contact-links img {
+        margin: 30px;
+    }
+}    
+
+/* settings for screens up to 700px wide */
+
+@media screen and (max-width:700px) {
+    body {
+        background-color: #dccdbc;
+        margin-top: 30px;
+    } 
+    li {
+        font-size: 2em;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    header {
+        margin: 5px 5px 30px 5px;
+    }
+    .contact-links {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 5vh auto;
+    }
+    .contact-links img {
+        margin: 30px;
+    }
+}
+
+/* dropdown menu */
+
+.button {
+    background-color: #5e705b;
+    color: white;
+    font-size: 5.8vw;
+    font-family: 'Zen Dots', cursive;
+    width: 100%;
+    padding: 4px;
+}
+  
+.drop {
+    position: relative;
+    display: block;
+    align-items: center;
+}
+
+.content {
+    display: none;
+    position: relative;
+}
+
+.content a {
+    padding: 12px;
+    display: block;
+}
+
+.drop:hover .content {
+    display: block;
+}
