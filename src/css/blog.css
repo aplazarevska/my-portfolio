@@ -21,7 +21,7 @@ span {
 header {
     text-align: center;
     margin: 5px;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px #000000;
 }
 
 footer {
@@ -84,15 +84,11 @@ a {
     background-color: #b3e6cc;
 }
 
-#resume {
-    background-color: #9fdfbf;
-}
-
 #skills {
     background-color: #8cd9b3;
 }
 
-#technologies {
+#contact {
     background-color: #79d2a6;
 }
 
@@ -167,7 +163,7 @@ img {
         text-align: center;
     }
     header {
-        text-shadow: none;
+        margin: 5px 5px 30px 5px;
     }
     .flex-container p {
         font-size: 2.5vw;;
