@@ -1,4 +1,6 @@
 
+/* general settings for main sections */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,6 @@ body {
     background-color: #f5deb3;
     font-family: 'Zen Dots', cursive;
     color: #5e705b;
-    text-shadow: 2px 2px black;
 }
 
 span {
@@ -20,6 +21,7 @@ span {
 header {
     text-align: center;
     margin: 5px;
+    text-shadow: 1px 1px #000000;
 }
 
 footer {
@@ -72,34 +74,47 @@ a {
 /* font sizes */
 
 h1 {
-    font-size: 13vw;
-}
-
-h3 {
     font-size: 7vw;
 }
 
-p {
+h3 {
     font-size: 5vw;
 }
 
-/* image  */
+h2 {
+    font-size: 4vw;
+}
+
+/* image takes you to homepage */
 
 img {
-    position: relative; 
-    left: 50%;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    transform: translateX(-50%);
+    float: left;
+    margin: 10px;
+    max-width: 15vw;
 }
 
-.image img {
-    transition: 1s;
-    box-sizing: border-box;
+/* technology images */
+
+.technologies {
+    display: inline-block;
+    padding: 4%;
+    margin: 5% 5% 0 5%;
 }
-  
-.image:hover img {
-    transform: rotate(-20deg) translateX(-50%);
+
+/* main text */
+
+.specials-container {
+    display: block;
+    padding: 0 10% 10% 10%;
+}
+
+.specials {
+    color: black;
+    border-top: 35px solid #edeae1;
+    border-bottom: 35px solid #edeae1;
+    border-left: 35px solid #5e705b;
+    background-color: #edeae1;
+    padding: 5px;
 }
 
 /* settings for screens 701px to 900px wide */
@@ -114,9 +129,6 @@ img {
     li {
         font-size: 1.5em
       }
-    h3 {
-        font-size: 5em;
-    }
     footer {
         position: fixed;
         left: 0;
@@ -134,14 +146,7 @@ img {
         margin-top: 30px;
     } 
     li {
-        font-size: 1.5em;
-    }
-    section, aside, footer {
-        width: 100%;
-    }
-    h3 {
-        font-size: 6vw;
-        text-align: center;
+        font-size: 2em;
     }
     footer {
         position: fixed;
@@ -150,8 +155,8 @@ img {
         width: 100%;
         text-align: center;
     }
-    body {
-        text-shadow: none;
+    header {
+        margin: 5px 5px 30px 5px;
     }
 }
 

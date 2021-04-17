@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #7d4d05;
+    background-color: #f5deb3;
     font-family: 'Zen Dots', cursive;
     color: #5e705b;
 }
@@ -73,27 +73,27 @@ a {
 /* setting the background colour of the links in the dropdown menu */
 
 #about {
-    background-color: #e6f2cb;
+    background-color: #ecf9f2;
 }
 
 #projects {
-    background-color: #c7db9a;
+    background-color: #d9f2e6;
 }
 
 #blog {
-    background-color: #8ea35f;
+    background-color: #b3e6cc;
 }
 
 #resume {
-    background-color: #6b8237;
+    background-color: #9fdfbf;
 }
 
 #skills {
-    background-color: #74942b;
+    background-color: #8cd9b3;
 }
 
 #technologies {
-    background-color: #8dc904;
+    background-color: #79d2a6;
 }
 
 /* font sizes */
@@ -110,6 +110,10 @@ h2 {
     font-size: 4vw;
 }
 
+h5 {
+    font-size: 3vw;
+}
+
 /* image takes you to homepage */
 
 img {
@@ -122,7 +126,7 @@ img {
 
 @media screen and (max-width:900px) {
     body {
-        background-color: #a37631;
+        background-color: #c2a98c;
     } 
     header {
         margin-top: 10%;
@@ -149,7 +153,7 @@ img {
 
 @media screen and (max-width:700px) {
     body {
-        background-color: #d19f54;
+        background-color: #dccdbc;
         margin-top: 30px;
     } 
     li {
