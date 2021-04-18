@@ -24,12 +24,17 @@ header {
     text-shadow: 1px 1px #000000;
 }
 
+header p {
+    font-size: 2em;
+}
+
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: auto;   
 }
 
 /* setting text-decoration on the links in the dropdown menu */
@@ -83,10 +88,36 @@ h2 {
 
 /* image takes you to homepage */
 
-img {
+figure a img {
     float: left;
     margin: 10px;
     max-width: 15vw;
+}
+
+/* the main body */
+
+.section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 5vh auto;
+}
+
+aside img {
+    width: 25vw;
+}
+
+.about-text {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#resume {
+    margin: 10px;
+    padding-bottom: 80px;
+    color: #bd7a00;
+    font-size: 4vw;
+    float: right;
 }
 
 /* settings for screens 701px to 900px wide */
@@ -107,7 +138,8 @@ img {
         bottom: 0;
         width: 100%;
         text-align: center;
-     }
+        margin-top: auto;
+    }
 }    
 
 /* settings for screens up to 700px wide */
@@ -126,10 +158,23 @@ img {
         bottom: 0;
         width: 100%;
         text-align: center;
+        margin-top: auto;
     }
     header {
         margin: 5px 5px 30px 5px;
     }
+    .section {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 5vh auto;
+    }
+    header p {
+        font-size: 1em;
+    }
+    #resume {
+        font-size: 5vw;
+     }
 }
 
 /* dropdown menu */
@@ -137,7 +182,7 @@ img {
 .button {
     background-color: #5e705b;
     color: white;
-    font-size: 5.8vw;
+    font-size: 5vw;
     font-family: 'Zen Dots', cursive;
     width: 100%;
     padding: 4px;
