@@ -59,15 +59,11 @@ a {
     background-color: #b3e6cc;
 }
 
-#resume {
-    background-color: #9fdfbf;
-}
-
 #skills {
     background-color: #8cd9b3;
 }
 
-#technologies {
+#contact {
     background-color: #79d2a6;
 }
 
@@ -165,7 +161,7 @@ img {
 .button {
     background-color: #5e705b;
     color: white;
-    font-size: 5.8vw;
+    font-size: 5vw;
     font-family: 'Zen Dots', cursive;
     width: 100%;
     padding: 4px;
