@@ -38,7 +38,7 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #d0f0c0;
     font-size: 2vw;
     text-shadow: none;
 }
@@ -46,29 +46,29 @@ a {
 /* setting the background colour of the links in the dropdown menu */
 
 #about {
-    background-color: #ecf9f2;
+    background-color: #757575;
 }
 
 #projects {
-    background-color: #d9f2e6;
+    background-color: #696969;
 }
 
 #blog {
-    background-color: #b3e6cc;
+    background-color: #5e5e5e;
 }
 
 #skills {
-    background-color: #8cd9b3;
+    background-color: #4f4f4f;
 }
 
 #contact {
-    background-color: #79d2a6;
+    background-color: #404040;
 }
 
 /* font sizes */
 
 h1 {
-    font-size: 13vw;
+    font-size: 11vw;
 }
 
 h3 {
@@ -107,7 +107,7 @@ img {
     header {
         margin-top: 10%;
     }
-    li {
+    a {
         font-size: 1.5em
       }
     h3 {
@@ -129,7 +129,7 @@ img {
         background-color: #dccdbc;
         margin-top: 30px;
     } 
-    li {
+    a {
         font-size: 1.5em;
     }
     section, aside, footer {
