@@ -2,7 +2,7 @@
 
 My professional developer portfolio, containing About page, Projects page, Blog page, Skills page, and Contact page. It is short introduction about me, showing my coding skills. The portfolio will be updated regularly.
 
-- [URL of the portfolio](ana-lazarevska-portfolio.netlify.app)
+- [URL of the portfolio](https://ana-lazarevska-portfolio.netlify.app/)
 - [GitHub repo of the portfolio](https://github.com/aplazarevska/my-portfolio)
 
 ---
