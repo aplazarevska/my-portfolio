@@ -10,6 +10,7 @@ My professional developer portfolio, containing About page, Projects page, Blog 
 ## Table of contents
 
 - [Description](##description)
+- [Purpose](##purpose)
 - [Functionality/features](##functionality/features)
 - [Sitemap](##sitemap)
 - [Screenshots](##screenshots)
@@ -37,6 +38,12 @@ The 'Coder .t culture' category leads to the Blog page. Here over the time the b
 The 'Today's specials' category refers to both specials that are found on a restaurant/tea house menu (the best that the chef/brewer has to offer), and to my specialities as a coder (the skills that I possess.)
 
 And finally the 'Delivery options' category leads to the Contact page. Again, the double meaning is in play. Delivery of tea, or delivery of any product for that matter, delivery of my skills, delivery of my services, can be achieved by reaching out to me. 
+
+---
+
+## Purpose
+
+The purpose of the portfolio is to showcase my coding skills and in the same time to present a bit more information about who I am as a person. 
 
 ---
 
