@@ -1,0 +1,191 @@
+commit 786a17c58ac2e892ad266380aa11e12bf6199e4d
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Thu Apr 22 13:17:53 2021 +1000
+
+    updated the readme
+
+commit 7e504ed6b6a25beedabee99f3ff0b512ba0569cd
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Thu Apr 22 13:09:26 2021 +1000
+
+    replaced the gif image and changed website in readme
+
+commit 39c8534946f566cca26c3316930a0a6d638d3388
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Thu Apr 22 13:04:24 2021 +1000
+
+    reduced even more the size of the gif
+
+commit 807e40b44328c6124be77aa56387c1616cf6a53b
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Thu Apr 22 12:55:16 2021 +1000
+
+    reduced the size of the image
+
+commit a159f0abd0aa52deae611ef00081124bc930c181
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Thu Apr 22 12:33:31 2021 +1000
+
+    fixed bottom margin, changed git photo
+
+commit c4b7020c1caa3c007a1e70a59b58f6c944d651d4
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Mon Apr 19 16:40:16 2021 +1000
+
+    changed path to index.html
+
+commit 41aea33948f85c0d1706890c36997ffb0c46d092
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Mon Apr 19 16:23:51 2021 +1000
+
+    moved index.html from html folder to root folder
+
+commit 30c0e5b9911c67ecf5d54c7e2a48e1221d9a4d8b
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Mon Apr 19 15:41:44 2021 +1000
+
+    added SRI hashes to all html files
+
+commit 8f3febc4b9cb2d9a875b4f4126b4525bbb6e9261
+Merge: 2d77b01 88f6510
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Mon Apr 19 14:03:41 2021 +1000
+
+    Merge pull request #6 from aplazarevska/projects
+    
+    added projects and fixed icon size in skills
+
+commit 88f6510c6d3a89e5764536aaea0d66b5c8ee69de
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Mon Apr 19 14:02:34 2021 +1000
+
+    added projects and fixed icon size in skills
+
+commit 2d77b0129277a3d3e24566bfb5ba60ada1ac7675
+Merge: 0cc21b5 b91b411
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Sun Apr 18 19:22:50 2021 +1000
+
+    Merge pull request #5 from aplazarevska/about
+    
+    About
+
+commit b91b411af233a75175c51a1da681940623e1049c
+Author: aplazarevska <aplazarevska>
+Date:   Sun Apr 18 19:22:13 2021 +1000
+
+    finalised the about page
+
+commit 5ebc0cc01de82f14db624f27961781ebeff2d641
+Author: aplazarevska <aplazarevska>
+Date:   Sat Apr 17 20:47:55 2021 +1000
+
+    added text to about page without any styling or formating yet
+
+commit 0cc21b59b650286947cd9016eb37823f599fdec1
+Merge: 67d0b61 185859d
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Sat Apr 17 19:38:12 2021 +1000
+
+    Merge pull request #4 from aplazarevska/contact
+    
+    done the contact page
+
+commit 185859d9a89e37586587af4e90923befad41da31
+Author: aplazarevska <aplazarevska>
+Date:   Sat Apr 17 19:36:13 2021 +1000
+
+    done the contact page
+
+commit 67d0b6110a13f380fd342df6096a087f4982f8ed
+Merge: 6831985 bb7d7a8
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Sat Apr 17 16:56:19 2021 +1000
+
+    Merge pull request #3 from aplazarevska/skills
+    
+    finished skills page and changed background-color for homepage and blog
+
+commit bb7d7a8c9faac74c7da54de0f5aaa6a7b864aee2
+Author: aplazarevska <aplazarevska>
+Date:   Sat Apr 17 16:55:36 2021 +1000
+
+    finished skills page and changed background-color for homepage and blog
+
+commit 683198514cb8085afb24685d85feded6d8abd182
+Merge: ef8f6d7 f3ecba8
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Sat Apr 17 13:16:21 2021 +1000
+
+    Merge pull request #2 from aplazarevska/blog
+    
+    final version of the blog page
+
+commit f3ecba855b28480d465e6a1f4dc3f82190bff642
+Author: aplazarevska <aplazarevska>
+Date:   Sat Apr 17 13:13:45 2021 +1000
+
+    final version of the blog page
+
+commit ef8f6d737a58fe103f60ddb9b03522ea939099b5
+Merge: 0e316ad 72fd08d
+Author: Ana Lazarevska <aplazarevska@gmail.com>
+Date:   Sat Apr 17 08:49:08 2021 +1000
+
+    Merge pull request #1 from aplazarevska/newhomepage
+    
+    Newhomepage
+
+commit 72fd08d4db021c8dc0358d0f973a27de4017afa6
+Author: aplazarevska <aplazarevska>
+Date:   Sat Apr 17 08:11:17 2021 +1000
+
+    added transform on image
+
+commit 48886dee2d795c4ac4af423c3e542e357f73853c
+Author: aplazarevska <aplazarevska>
+Date:   Fri Apr 16 19:30:28 2021 +1000
+
+    final homepage design
+
+commit 1761d041693541dad4374e0394e3f67bd1c3a995
+Author: aplazarevska <aplazarevska>
+Date:   Fri Apr 16 10:08:16 2021 +1000
+
+    done with font size and background
+
+commit 26d450a2f90691eb5481593e3b5750cd7309a6fc
+Author: aplazarevska <aplazarevska>
+Date:   Fri Apr 16 09:28:53 2021 +1000
+
+    responsieve background colour and text
+
+commit b5a19909b40d8a849dc02d03762fd83b8fd7e5a7
+Author: aplazarevska <aplazarevska>
+Date:   Tue Apr 13 16:18:54 2021 +1000
+
+    added image in home page
+
+commit 7c7b9f1fe11c63147701e31484e24b05e61bda00
+Author: aplazarevska <aplazarevska>
+Date:   Tue Apr 13 13:58:37 2021 +1000
+
+    additional work on the footer dropdown menu
+
+commit 396e61d271225bc3e53bae690060f59465d6915f
+Author: aplazarevska <aplazarevska>
+Date:   Mon Apr 12 16:18:04 2021 +1000
+
+    work on the footer
+
+commit b59319456e0775d18586eb10a6dd00928e62e8a7
+Author: aplazarevska <aplazarevska>
+Date:   Mon Apr 12 15:09:12 2021 +1000
+
+    initial work on the footer
+
+commit 0e316ad948d93e41b5bd540d5959cb272a3a4078
+Author: aplazarevska <aplazarevska>
+Date:   Mon Apr 12 13:01:17 2021 +1000
+
+    Initial commit
