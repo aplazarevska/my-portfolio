@@ -95,7 +95,7 @@ img {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin: 5vh auto;
+    margin: 3% auto 10% auto;
 }
 
 .contact-links img {
@@ -125,7 +125,7 @@ img {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        margin: 5vh auto;
+        margin: 3% auto 10% auto;
     }
     .contact-links img {
         margin: 30px;
@@ -156,7 +156,7 @@ img {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        margin: 5vh auto;
+        margin: 3% auto 10% auto;
     }
     .contact-links img {
         margin: 30px;

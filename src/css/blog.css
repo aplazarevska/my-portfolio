@@ -38,6 +38,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20%;
+    margin: 3% auto 5% auto;
 }
 
 .flex-container > div {

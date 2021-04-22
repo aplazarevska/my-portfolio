@@ -57,6 +57,7 @@ div.desc {
     padding: 0 6px;
     float: left;
     width: 33.3332%;
+    margin: 3% auto 10% auto;
 }
 
 /* setting text-decoration on the links in the dropdown menu */

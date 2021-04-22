@@ -100,7 +100,7 @@ figure a img {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin: 5vh auto;
+    margin: 3% auto;
 }
 
 aside img {
@@ -118,6 +118,7 @@ aside img {
     color: #bd7a00;
     font-size: 4vw;
     float: right;
+    margin: 3% auto 10% auto;
 }
 
 /* settings for screens 701px to 900px wide */
@@ -167,13 +168,14 @@ aside img {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        margin: 5vh auto;
+        margin: 3% auto;
     }
     header p {
         font-size: 1em;
     }
     #resume {
         font-size: 5vw;
+        margin: 3% auto 10% auto;
      }
 }
 

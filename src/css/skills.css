@@ -95,7 +95,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     padding: 4%;
-    margin: 5%;
+    margin: 3% auto 10% auto;
     justify-content: center;
 }
 
@@ -104,6 +104,7 @@ img {
 .specials-container {
     display: block;
     padding: 0 10% 10% 10%;
+    margin: 3% auto 10% auto;
 }
 
 .specials {
