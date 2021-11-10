@@ -38,14 +38,10 @@ div.gallery {
     border: 2px solid #000000;
 }
 
-#third {
-    margin-bottom: 30%;
-}
-
 div.gallery img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 500px;
+    object-fit: scale-down;
 }
 
 div.desc {
@@ -57,7 +53,11 @@ div.desc {
     padding: 0 6px;
     float: left;
     width: 33.3332%;
-    margin: 3% auto 10% auto;
+    margin: 3% auto 3% auto;
+}
+
+#first {
+    margin-bottom: 20%;
 }
 
 /* setting text-decoration on the links in the dropdown menu */
